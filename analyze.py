@@ -17,13 +17,15 @@ def combine_wiki_tables(url_base, page):
     combined_df = pd.concat(dfs, ignore_index=True)
     return combined_df
 
-def save_csv(data, filename):
+def save_csv(data, filename, headers=None):
     if isinstance(data, pd.DataFrame):
         data.to_csv(filename, encoding='utf-8')
         return
     
     with open(filename, 'w', newline='') as f:
         writer = csv.writer(f)
+        if (headers):
+            writer.writerow(headers)
         writer.writerows(data)
 
 def read_csv(filename):
@@ -56,8 +58,8 @@ def main(page, url="https://stardewvalleywiki.com"):
     data = read_csv(filename)
     parsed = parse_data(data)
     
-    save_csv(parsed, f"{page}_combined.csv")
-    save_csv([(i, len(e)) for i, e in parsed], f"{page}_counts.csv")
+    save_csv(parsed, f"{page}_combined.csv", ["Name", "Recipes"])
+    save_csv([(i, len(e)) for i, e in parsed], f"{page}_counts.csv", ["Name", "Count"])
 
 if __name__ == "__main__":
     page = "Crafting"
