@@ -57,9 +57,10 @@ def main(page, url="https://stardewvalleywiki.com"):
         save_csv(df, filename)
     data = read_csv(filename)
     parsed = parse_data(data)
-    
+    counts = [(i, len(e), sum(list(map(lambda x: int(x[1]), e)))) for i, e, in parsed]
+
     save_csv(parsed, f"{page}_combined.csv", ["Name", "Recipes"])
-    save_csv([(i, len(e)) for i, e in parsed], f"{page}_counts.csv", ["Name", "Count"])
+    save_csv(counts, f"{page}_counts.csv", ["Name", "Recipe count", "Total needed"])
 
 if __name__ == "__main__":
     page = "Crafting"

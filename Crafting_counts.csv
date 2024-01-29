@@ -1,81 +1,81 @@
-Name,Count
-Wood,34
-Stone,30
-Iron Bar,22
-Hardwood,19
-Fiber,19
-Coal,18
-Gold Bar,14
-Copper Bar,12
-Solar Essence,8
-Refined Quartz,7
-Iridium Bar,7
-Battery Pack,7
-Sap,7
-Slime,6
-Bone Fragment,6
-Clay,6
-Bug Meat,5
-Copper Ore,4
-Pine Tar,3
-Diamond,3
-Bat Wing,3
-Void Essence,2
-Oak Resin,2
-Coral,2
-Radioactive Ore,2
-Iridium Ore,2
-Radioactive Bar,2
-Iron Ore,1
-Gold Ore,1
-Earth Crystal,1
-Maple Syrup,1
-Any Fish,1
-Clam,1
-Wild Horseradish,1
-Daffodil,1
-Leek,1
-Dandelion,1
-Spice Berry,1
-Grape,1
-Sweet Pea,1
-Common Mushroom,1
-Wild Plum,1
-Hazelnut,1
-Blackberry,1
-Winter Root,1
-Crystal Fruit,1
-Snow Yam,1
-Crocus,1
-Ancient Seed,1
-Wild Seeds (Any),1
-Mixed Seeds,1
-Cloth,1
-Frozen Tear,1
-Prismatic Shard,1
-Acorn,1
-Maple Seed,1
-Pine Cone,1
-Red Mushroom,1
-Purple Mushroom,1
-Morel,1
-Chanterelle,1
-Garlic,1
-Oil,1
-Fairy Rose,1
-Honey,1
-Coconut,1
-Dragon Tooth,1
-Ginger,1
-Truffle Oil,1
-Marble,1
-Aquamarine,1
-Pumpkin,1
-Torch,1
-Cinder Shard,1
-Fire Quartz,1
-Tulip Bulb,1
-Jazz Seeds,1
-Poppy Seeds,1
-Spangle Seeds,1
-Dwarf Gadget,1
+Name,Recipe count,Total needed
+Wood,34,803
+Stone,30,760
+Iron Bar,22,49
+Hardwood,19,218
+Fiber,19,279
+Coal,18,96
+Gold Bar,14,30
+Copper Bar,12,18
+Solar Essence,8,84
+Refined Quartz,7,25
+Iridium Bar,7,17
+Battery Pack,7,7
+Sap,7,81
+Slime,6,220
+Bone Fragment,6,128
+Clay,6,9
+Bug Meat,5,44
+Copper Ore,4,28
+Pine Tar,3,7
+Diamond,3,3
+Bat Wing,3,40
+Void Essence,2,51
+Oak Resin,2,2
+Coral,2,3
+Radioactive Ore,2,2
+Iridium Ore,2,5
+Radioactive Bar,2,2
+Iron Ore,1,4
+Gold Ore,1,4
+Earth Crystal,1,1
+Maple Syrup,1,1
+Any Fish,1,1
+Clam,1,1
+Wild Horseradish,1,1
+Daffodil,1,1
+Leek,1,1
+Dandelion,1,1
+Spice Berry,1,1
+Grape,1,1
+Sweet Pea,1,1
+Common Mushroom,1,1
+Wild Plum,1,1
+Hazelnut,1,1
+Blackberry,1,1
+Winter Root,1,1
+Crystal Fruit,1,1
+Snow Yam,1,1
+Crocus,1,1
+Ancient Seed,1,1
+Wild Seeds (Any),1,2
+Mixed Seeds,1,1
+Cloth,1,1
+Frozen Tear,1,10
+Prismatic Shard,1,1
+Acorn,1,1
+Maple Seed,1,1
+Pine Cone,1,1
+Red Mushroom,1,1
+Purple Mushroom,1,1
+Morel,1,1
+Chanterelle,1,1
+Garlic,1,10
+Oil,1,1
+Fairy Rose,1,1
+Honey,1,1
+Coconut,1,1
+Dragon Tooth,1,1
+Ginger,1,1
+Truffle Oil,1,1
+Marble,1,1
+Aquamarine,1,1
+Pumpkin,1,1
+Torch,1,1
+Cinder Shard,1,20
+Fire Quartz,1,1
+Tulip Bulb,1,1
+Jazz Seeds,1,1
+Poppy Seeds,1,1
+Spangle Seeds,1,1
+Dwarf Gadget,1,1
